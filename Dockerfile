@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jre
 
 # Pin a Lavalink release (override with --build-arg LAVALINK_VERSION=...)
 ARG LAVALINK_VERSION=v3.6.5
